@@ -374,7 +374,7 @@ function initLibrary()
             Size = UDim2.new(1, -8, 1, -64),
             BackgroundTransparency = 1,
             Position = UDim2.new(0, 4, 0, 58),
-            BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+            BackgroundColor3 = Color3.fromRGB(243, 58, 106),
             Parent = main
         })
         
@@ -442,7 +442,7 @@ function initLibrary()
             local tab = utility.create("Frame", {
                 Size = UDim2.new(1, 0, 1, 0),
                 BackgroundTransparency = 1,
-                BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+                BackgroundColor3 = Color3.fromRGB(243, 58, 106),
                 Visible = toggled,
                 Parent = tabs
             })
