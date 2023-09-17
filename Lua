@@ -427,10 +427,10 @@ function initLibrary()
             local tabToggle = utility.create("TextButton", {
                 ZIndex = 3,
                 BackgroundTransparency = 1,
-                BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+                BackgroundColor3 = Color3.fromRGB(243, 58, 106),
                 FontSize = Enum.FontSize.Size14,
                 TextSize = 14,
-                TextColor3 = Color3.fromRGB(255, 255, 255),
+                TextColor3 = Color3.fromRGB(243, 58, 106),
                 Text = name,
                 Font = toggled and Enum.Font.GothamSemibold or Enum.Font.Gotham,
                 Parent = tabTogglesHolder
